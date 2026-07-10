@@ -1,0 +1,296 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Courtside | Home of the Greats</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation start -->
+    <header>
+    <nav>
+        <!-- Updated to a generic basketball/NBA placeholder logo path -->
+        <img src="images/NBA logo.jpg" class="logo" alt="NBA Courtside">
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="teams.html">Teams</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+
+            <img src="img/menu.png" id="menu-btn" alt="Menu">
+        </div>
+    </nav>
+    </header>
+    <!-- Navigation ends -->
+
+    <!-- Hero section starts from here -->
+    <section id="home">
+        <h2>NBA</h2>
+        <p>HOME OF THE GREATS</p>
+        <div class="btn">
+            <a href="#" class="blue">Latest News</a>
+            <a href="#" class="yellow">Season Standings</a>
+        </div>
+    </section>
+    <!-- Hero section ends from here -->
+
+
+    <!-- League Highlights / Features section starts -->
+    <section id="features">
+        <h1>Season Coverage</h1>
+        <p>Stay up to date with deep analytics, breakneck breakdowns, and live updates</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-chart-line"></i>
+                <h3>Advanced Analytics</h3>
+                <p>
+                    Dive into true shooting percentages, defensive ratings, and advanced player impact metrics.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-video"></i>
+                <h3>Game Breakdowns</h3>
+                <p>
+                    Film room breakdowns analyzing clutch plays, defensive schemes, and late-game execution.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-trophy"></i>
+                <h3>Championship Chase</h3>
+                <p>
+                    Tracking the road to the Larry O'Brien trophy with real-time playoff probabilities.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- League Highlights section ends -->
+
+
+    <!-- Featured Deep Dives / Replaces Courses section -->
+    <section id="course">
+        <h1>Featured Deep Dives</h1>
+        <p>Expert analysis on the tactical trends shaping the modern league</p>
+
+        <div class="course-box">
+            <!-- Card 1 -->
+            <div class="courses">
+                <img src="img/analysis1.jpg" alt="Tactical Breakdown">
+                <div class="details">
+                    <span>Updated Today</span>
+                    <h6>The Evolution of the Pick & Roll Defense</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>Premium</span>
+                    </div>
+                </div>
+                <div class="cost">Analysis</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="courses">
+                <img src="img/analysis2.jpg" alt="Player Spotlight">
+                <div class="details">
+                    <span>Updated Yesterday</span>
+                    <h6>How Spacing Created the Modern Scoring Boom</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>Free</span>
+                    </div>
+                </div>
+                <div class="cost">Tactics</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="courses">
+                <img src="img/analysis3.jpg" alt="Draft Scouting">
+                <div class="details">
+                    <span>Updated 2 days ago</span>
+                    <h6>Draft Scouting: The Next Generation of Rim Protectors</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>Prospects</span>
+                    </div>
+                </div>
+                <div class="cost">Scouting</div>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Deep Dives section ends -->
+
+
+    <!-- MVP Race Countdown / Replaces Registration section -->
+    <section id="registration">
+        <div class="reminder">
+            <p>The Race for the Maurice Podoloff Trophy</p>
+            <h1>MVP Voting Countdown</h1>
+
+            <div class="time">
+                <div class="date">42 <br> Days</div>
+                <div class="date">12 <br> Hours</div>
+                <div class="date">14 <br> Minutes</div>
+                <div class="date">05 <br> Seconds</div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h3>Cast Your Fan Vote!</h3>
+            <p style="color: #fff; margin-bottom: 15px; font-size: 0.9rem;">Who is your regular season MVP? Let your voice be heard.</p>
+
+            <input type="text" placeholder="Your Name" name="" id="">
+            <input type="email" placeholder="Your Email Address" name="" id="">
+            <input type="text" placeholder="Your MVP Pick (e.g., LeBron, Curry)" name="" id="">
+
+            <div class="btn">
+                <a href="#" class="yellow">Submit Ballot</a>
+            </div>
+        </div>
+    </section>
+    <!-- MVP Race Countdown section ends -->
+
+
+    <!-- Experts/NBA Stars section starts -->
+    <section id="experts">
+        <h1>NBA STARS</h1>
+        <p>Faces of the League & Icons of the Game</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/lebron.jpg" alt="LeBron James">
+                <h6>LeBron James</h6>
+                <p>Los Angeles Lakers</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/curry.jpg" alt="Stephen Curry">
+                <h6>Stephen Curry</h6>
+                <p>Golden State Warriors</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/jordan.jpg" alt="Michael Jordan">
+                <h6>Michael Jordan</h6>
+                <p>Chicago Bulls Legend</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/kobe.jpg" alt="Kobe Bryant">
+                <h6>Kobe Bryant</h6>
+                <p>Mamba Forever</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experts/NBA Stars section ends -->
+
+    <!-- Footer section starts -->
+    <footer>
+        <div class="footer-col">
+            <h3>Eastern Conference</h3>
+            <li>Atlantic Division</li>
+            <li>Central Division</li>
+            <li>Southeast Division</li>
+            <li>Eastern Standings</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Western Conference</h3>
+            <li>Northwest Division</li>
+            <li>Pacific Division</li>
+            <li>Southwest Division</li>
+            <li>Western Standings</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Stats Hub</h3>
+            <li>Player Leaders</li>
+            <li>Team Leaders</li>
+            <li>Advanced Metrics</li>
+            <li>Historical Archive</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Injury Report</li>
+            <li>NBA Draft Tracker</li>
+            <li>CBA & Salary Cap Info</li>
+            <li>Media Guidelines</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Courtside Newsletter</h3>
+            <li>Get daily fantasy updates and statistical trends delivered to your inbox.</li>
+
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Copyright @ 2026 All rights reserved | NBA Fan Hub Template
+            </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section ends -->
+
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

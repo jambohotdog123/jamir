@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Legend Stats Hub</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation start -->
+    <header>
+    <nav>
+        <img src="images/NBA logo.jpg" class="logo" alt="NBA Stat Hub">
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">Legends Archive</a></li>
+                <li><a href="blog.html">Scouting Reports</a></li>
+                <li><a href="courses.html">All-Time Leaders</a></li>
+                <li><a href="contact.html">Compare Players</a></li>
+            </ul>
+
+            <img src="img/menu.png" id="menu-btn" alt="Menu">
+        </div>
+    </nav>
+    </header>
+    <!-- Navigation ends -->
+
+    <!-- Hero section starts from here -->
+    <section id="home">
+        <h2>NBA</h2>
+        <p>HOME OF THE GREATS</p>
+        <div class="btn">
+            <a href="#course" class="blue">View Star Metrics</a>
+            <a href="#experts" class="yellow">Roster Lineup</a>
+        </div>
+    </section>
+    <!-- Hero section ends from here -->
+
+
+    <!-- Features section / Reconfigured to Basketball Archetypes -->
+    <section id="features">
+        <h1>Legendary Metrics</h1>
+        <p>Analyzing what separates standard elite players from historical icons</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-basketball-ball"></i>
+                <h3>Scoring Volume</h3>
+                <p>
+                    Sustained point-per-game outputs across regular seasons and deep playoff runs.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-trophy"></i>
+                <h3>Championship Hardware</h3>
+                <p>
+                    The ultimate metric of greatness—leading franchises to the absolute pinnacle of the sport.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-crown"></i>
+                <h3>All-Time Legacy</h3>
+                <p>
+                    Combining individual regular season efficiency totals with clutch postseason execution.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Features section ends from here -->
+
+
+    <!-- Player Stat Cards / Replaces Courses section -->
+    <section id="course">
+        <h1>All-Time Scoring & Rings</h1>
+        <p>Individual offensive efficiency profiles matched with championship history</p>
+
+        <div class="course-box">
+            
+            <!-- LeBron James Card -->
+            <div class="courses">
+                <img src="images/lebron.jpg" alt="LeBron James">
+                <div class="details">
+                    <span>Active | Small Forward</span>
+                    <h6>LeBron James</h6>
+
+                    <div class="star">
+                        <!-- Rings represented as stars visually -->
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(4 Rings)</span>
+                    </div>
+                </div>
+                <div class="cost">27.1 PPG</div>	
+            </div>
+
+            <!-- Stephen Curry Card -->
+            <div class="courses">
+                <img src="images/curry.jpg" alt="Stephen Curry">
+                <div class="details">
+                    <span>Active | Point Guard</span>
+                    <h6>Stephen Curry</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(4 Rings)</span>
+                    </div>
+                </div>
+                <div class="cost">24.7 PPG</div>
+            </div>
+
+            <!-- Michael Jordan Card -->
+            <div class="courses">
+                <img src="images/jordan.jpg" alt="Michael Jordan">
+                <div class="details">
+                    <span>Hall of Fame | Shooting Guard</span>
+                    <h6>Michael Jordan</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(6 Rings)</span>
+                    </div>
+                </div>
+                <div class="cost">30.1 PPG</div>
+            </div>
+
+            <!-- Kobe Bryant Card -->
+            <div class="courses">
+                <img src="images/kobe.jpg" alt="Kobe Bryant">
+                <div class="details">
+                    <span>Hall of Fame | Shooting Guard</span>
+                    <h6>Kobe Bryant</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(5 Rings)</span>
+                    </div>
+                </div>
+                <div class="cost">25.0 PPG</div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Player Stat Cards section ends from here -->
+
+
+    <!-- Fan Vote section remaining structurally untouched but themed -->
+    <section id="registration">
+        <div class="reminder">
+            <p>Predict the Upcoming Finals Winner</p>
+            <h1>Championship Ballot</h1>
+
+            <div class="time">
+                <div class="date">12 <br> Days</div>
+                <div class="date">08 <br> Hours</div>
+                <div class="date">44 <br> Minutes</div>
+                <div class="date">12 <br> Seconds</div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h3>Lock In Your Pick</h3>
+
+            <input type="text" placeholder="Fan Name" name="" id="">
+            <input type="email" placeholder="Email Address" name="" id="">
+            <input type="text" placeholder="Predicted Champion Franchise" name="" id="">
+
+            <div class="btn">
+                <a href="#" class="yellow">Submit Vote</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Profiles Gallery section -->
+    <section id="experts">
+        <h1>NBA STARS</h1>
+        <p>Roster Quick-View Links</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/lebron.jpg" alt="LeBron">
+                <h6>Lebron James</h6>
+                <p>Lakers #23</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/curry.jpg" alt="Curry">
+                <h6>Stephen Curry</h6>
+                <p>Warriors #30</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/jordan.jpg" alt="Jordan">
+                <h6>Michael Jordan</h6>
+                <p>Bulls #23 Legend</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/kobe.jpg" alt="Kobe">
+                <h6>Kobe Bryant</h6>
+                <p>Lakers #24 Legend</p>
+                <div class="pro-links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section start -->
+    <footer>
+        <div class="footer-col">
+            <h3>Historical Archives</h3>
+            <li>Scoring Leaders</li>
+            <li>Ring Counts</li>
+            <li>MVP Records</li>
+            <li>Hall of Fame</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Stat Splits</h3>
+            <li>Regular Season</li>
+            <li>Playoff Formats</li>
+            <li>Finals Series</li>
+            <li>Per-Game Splitting</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Analytics Hub</h3>
+            <li>True Shooting</li>
+            <li>Player Efficiency</li>
+            <li>Win Shares</li>
+            <li>Defensive Metrics</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Community Links</h3>
+            <li>Fan Forum</li>
+            <li>Fantasy Tracker</li>
+            <li>Media Resources</li>
+            <li>Newsletter Signups</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Courtside Digest</h3>
+            <p>Get historical deep-dives and box scores directly to your inbox.</p>
+
+            <div class="subscribe">
+                <input type="email" placeholder="Your email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Copyright @ 2026 All rights reserved | NBA Stat Archive Portal
+            </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

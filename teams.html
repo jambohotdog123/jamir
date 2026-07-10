@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Franchise Championship Hub</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation start -->
+    <header>
+    <nav>
+        <img src="images/NBA logo.jpg" class="logo" alt="NBA Logo">
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="teams.html">Franchises</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="records.html">Records</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <img src="img/menu.png" id="menu-btn" alt="Menu">
+        </div>
+    </nav>
+    </header>
+    <!-- Navigation ends -->
+
+    <!-- Hero section starts from here -->
+    <section id="home">
+        <h2>NBA</h2>
+        <p>HOME OF THE CHAMPIONS</p>
+        <div class="btn">
+            <a href="#course" class="blue">Explore Franchises</a>
+            <a href="#experts" class="yellow">View Legends</a>
+        </div>
+    </section>
+    <!-- Hero section ends from here -->
+
+
+    <!-- Features section starts from here -->
+    <section id="features">
+        <h1>Championship Heritage</h1>
+        <p>Analyzing the dynasties that defined eras of basketball excellence</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-trophy"></i>
+                <h3>Larry O'Brien Trophy</h3>
+                <p>
+                    The ultimate goal of every franchise, awarded annually to the team that conquers the NBA Finals.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-gem"></i>
+                <h3>Championship Rings</h3>
+                <p>
+                    The ultimate personal hardware given to players and staff to permanently mark a historical title run.
+                </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-chart-line"></i>
+                <h3>Dynastic Metrics</h3>
+                <p>
+                    Measuring dominant win percentages, historical multi-year repeats, and legacy eras across decades.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Features section ends from here -->
+
+
+    <!-- Teams & Rings section (Replaced Popular Courses) -->
+    <section id="course">
+        <h1>Most Decorated Franchises</h1>
+        <p>The elite organizations boasting the highest density of NBA titles</p>
+
+        <div class="course-box">
+            
+            <!-- Boston Celtics Card -->
+            <div class="courses">
+                <img src="images/celtics.jpg" alt="Boston Celtics">
+                <div class="details">
+                    <span>Eastern Conference | Atlantic</span>
+                    <h6>Boston Celtics</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 2024)</span>
+                    </div>
+                </div>
+                <div class="cost">18 Rings</div>
+            </div>
+
+            <!-- Los Angeles Lakers Card -->
+            <div class="courses">
+                <img src="images/lakers.jpg" alt="Los Angeles Lakers">
+                <div class="details">
+                    <span>Western Conference | Pacific</span>
+                    <h6>Los Angeles Lakers</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 2020)</span>
+                    </div>
+                </div>
+                <div class="cost">17 Rings</div>
+            </div>
+
+            <!-- Golden State Warriors Card -->
+            <div class="courses">
+                <img src="images/warriors.jpg" alt="Golden State Warriors">
+                <div class="details">
+                    <span>Western Conference | Pacific</span>
+                    <h6>Golden State Warriors</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 2022)</span>
+                    </div>
+                </div>
+                <div class="cost">7 Rings</div>
+            </div>
+
+            <!-- Chicago Bulls Card -->
+            <div class="courses">
+                <img src="images/chicago bulls.webp" alt="Chicago Bulls">
+                <div class="details">
+                    <span>Eastern Conference | Central</span>
+                    <h6>Chicago Bulls</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 1998)</span>
+                    </div>
+                </div>
+                <div class="cost">6 Rings</div>
+            </div>
+
+            <!-- San Antonio Spurs Card -->
+            <div class="courses">
+                <img src="images/spurs.webp" alt="San Antonio Spurs">
+                <div class="details">
+                    <span>Western Conference | Southwest</span>
+                    <h6>San Antonio Spurs</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 2014)</span>
+                    </div>
+                </div>
+                <div class="cost">5 Rings</div>
+            </div>
+
+            <!-- Miami Heat Card -->
+            <div class="courses">
+                <img src="images/heat.webp" alt="Miami Heat">
+                <div class="details">
+                    <span>Eastern Conference | Southeast</span>
+                    <h6>Miami Heat</h6>
+
+                    <div class="star">
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <i class="fa-solid fa-trophy" style="color: #FFD700;"></i>
+                        <span>(Most Recent: 2013)</span>
+                    </div>
+                </div>
+                <div class="cost">3 Rings</div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Teams section ends from here -->
+
+
+    <!-- Registration section -->
+    <section id="registration">
+        <div class="reminder">
+            <p>Predict the Next Historical Ring</p>
+            <h1>Vote for the Next Champion</h1>
+
+            <div class="time">
+                <div class="date">12 <br> Days</div>
+                <div class="date">08 <br> Hours</div>
+                <div class="date">44 <br> Minutes</div>
+                <div class="date">12 <br> Seconds</div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h3>Lock In Your Ballot</h3>
+
+            <input type="text" placeholder="Your Name" name="" id="">
+            <input type="email" placeholder="Email Address" name="" id="">
+            <input type="text" placeholder="Predicted Franchise" name="" id="">
+
+            <div class="btn">
+                <a href="#" class="yellow">Submit Vote</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experts section remains visually clean -->
+    <section id="experts">
+        <h1>NBA STARS</h1>
+        <p>The Faces of Historical Rings</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/lebron.jpg" alt="LeBron">
+                <h6>Lebron James</h6>
+                <p>4x NBA Champion</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/curry.jpg" alt="Curry">
+                <h6>Stephen Curry</h6>
+                <p>4x NBA Champion</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/jordan.jpg" alt="Jordan">
+                <h6>Michael Jordan</h6>
+                <p>6x NBA Champion</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/kobe.jpg" alt="Kobe">
+                <h6>Kobe Bryant</h6>
+                <p>5x NBA Champion</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experts section ends from here -->
+
+    <!-- Footer section start -->
+    <footer>
+        <div class="footer-col">
+            <h3>Franchises</h3>
+            <li>Boston Celtics</li>
+            <li>Los Angeles Lakers</li>
+            <li>Golden State Warriors</li>
+            <li>Chicago Bulls</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Eras of Play</h3>
+            <li>60s Celtics Run</li>
+            <li>80s Showtime</li>
+            <li>90s Bulls Dynasty</li>
+            <li>Modern Step Era</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Historical Stats</h3>
+            <li>Championship Counts</li>
+            <li>Finals Appearances</li>
+            <li>Playoff MVPs</li>
+            <li>Win-Loss Records</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Historical Archives</li>
+            <li>Scouting Database</li>
+            <li>Rule Variations</li>
+            <li>Media Center</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Courtside Digest</h3>
+            <p>Get historical deep-dives and analytics straight to your inbox.</p>
+
+            <div class="subscribe">
+                <input type="email" placeholder="Your email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Copyright @ 2026 All rights reserved | Historical NBA Record Repository
+            </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section ends from here -->
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
